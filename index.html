@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="budget-container">
+        <!-- <h3 class="app-title">Budget-App</h3> -->
+        <div class="budget-header">
+            <div class="balance">
+                <small class="title">Balance</small>
+                <p class="value">$7500</p>
+            </div>
+            <div class="acount">
+                <div class="income">
+                    <h4 class="title">Income</h4>
+                    <p class="income-total"></p>
+
+                </div>
+                <div class="chart">
+                    wwe
+
+                </div>
+                <div class="outcome">
+                    <h4 class="title">outcome</h4>
+                    <p class="outcome-total">$0</p>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="budget-dashboard">
+            <h2 class="dash-title">Dashboard</h2>
+            <div class="toggle">
+                <button class="tab1">Expenses</button>
+                <button class="tab2 ">Income</button>
+                <button class="tab3 active">All</button>
+            </div>
+            <hr>
+            <div id="income" class="hide">
+                <ul class="list"> 
+                </ul>
+                <div class="input">
+                    <input type="text" name="" id="income-title-input" placeholder="Title">
+                    <input type="number" name="" id="income-amount-input" placeholder="$0">
+                    <button class="add add-income">add</button>
+                </div>
+            </div>
+            <div id="expense" class=" hide">
+                <ul class="list"></ul>   
+                
+
+                <div class="input">
+                    <input type="text" name="" id="expense-title-input" placeholder="Title">
+                    <input type="number" name="" id="expense-amount-input" placeholder="$0">
+                    <button class="add add-expense">add</button>
+                </div>
+            </div>
+            <div id="all">
+                <ul class="list"></ul>
+               
+            </div>
+         <hr>
+
+        </div>
+
+    </div>
+<script src="app.js"></script>
+</body>
+
+</html>

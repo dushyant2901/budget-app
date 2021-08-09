@@ -1,0 +1,118 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.budget-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+    background-color:black;
+    height: 100vh;
+}
+
+.budget-header{
+    background-color: purple;
+    height: 35vh;
+  width:100%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+  
+   position: absolute;
+   top: 0vh;
+   color: white;
+   
+}
+.balance{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem 2rem;
+}
+.balance .value{
+    font-size: 2rem;
+}
+.acount{
+    display:flex;
+    gap: 3rem;
+    margin: 0 2rem;
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.budget-dashboard{
+      background-color: white;
+    height: 65vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   border-radius: 1.3rem 1.3rem 0 0;
+   position: absolute;
+   top: 30vh;
+   padding: 1rem;
+}
+.budget-dashboard .dash-title{
+    text-align:left;
+}
+.budget-dashboard .toggle{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.3rem;
+}
+.budget-dashboard .toggle .active{
+    color: green;
+}
+.budget-dashboard .toggle a{
+    text-decoration: none;
+    
+
+}
+.budget-dashboard ul{
+    list-style: none;
+    
+    background-color: green;
+}
+.budget-dashboard ul li{
+    display:flex;
+    justify-content: space-between;
+}
+
+.budget-dashboard #income,
+.budget-dashboard #expense,
+.budget-dashboard #all
+{
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+  
+}
+
+.budget-dashboard .input{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+
+    
+}
+.budget-dashboard .input input{
+    width: 20vh;
+}
+
+
+.hide{
+    display: none;
+}
+
